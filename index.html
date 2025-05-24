@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jerryson Construction & Maintenance LLC - Soluciones confiables para tu proyecto en Puerto Rico">
+  <meta name="keywords" content="construcción, mantenimiento, Puerto Rico, remodelaciones, proyectos civiles, Jerryson">
+  <title>Jerryson Construction & Maintenance LLC</title>
+  <link rel="icon" href="logo-blanco.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #ffffffcc;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+    header h1 {
+      font-size: 1.2em;
+      color: #a00000;
+      font-weight: 900;
+      margin: 0;
+    }
+    nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #a00000;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('foto-de-background.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 120px 20px;
+      text-align: center;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.8em;
+      margin: 0;
+      font-weight: 900;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    }
+    .hero p {
+      font-size: 1.1em;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+      margin-top: 0.5em;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 1s ease forwards;
+      animation-delay: 0.2s;
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #a00000;
+      border-bottom: 2px solid #ddd;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jerryson Construction</h1>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  <div class="lang-switch">
+    <a href="#">Español</a> | <a href="#">English</a>
+  </div>
+  <section class="hero">
+    <h1>Jerryson Construction & Maintenance LLC</h1>
+    <p>Soluciones confiables para tu proyecto</p>
+  </section>
+  <section class="section" id="servicios">
+    <h2>Servicios</h2>
+  </section>
+  <section class="section" id="proyectos">
+    <h2>Proyectos</h2>
+  </section>
+  <section class="section" id="testimonios">
+    <h2>Testimonios</h2>
+  </section>
+  <section class="section" id="contacto">
+    <h2>Contacto</h2>
+  </section>
+  <footer>
+    © 2025 Jerryson Construction & Maintenance LLC – Todos los derechos reservados / All rights reserved<br />
+    Bo. Río Chiquito, Carr. 504 Km. 6.7, Ponce, PR 00731
+  </footer>
+</body>
+</html>
